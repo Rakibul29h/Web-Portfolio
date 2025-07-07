@@ -94,3 +94,115 @@ nav ul li a{
 .hero img{
     width: 585px;
 }
+
+/* main start */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+.about{
+    background-color: #FFF8F3;
+    padding: 130px 157px;
+    border-radius: 5px;
+}
+.about_container{
+    background-color: white;
+    border: 1px solid black;
+    padding: 2px;
+}
+.section_title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.section_description{
+    text-align: center;
+    font-size: 18;
+    color: #757575;
+}
+.about_items{
+    display: flex;
+    justify-content: space-around;
+}
+.item_title{
+    font-size: 20px;
+    color: #474747;
+}
+.item_dex{
+    font-size:20px ;
+    font-weight: bold;
+}
+
+/* What */
+.what{
+    padding: 130px;
+}
+
+/* skill */
+.skill{
+    width: 204px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06) ;
+    padding: 33px;
+    border-radius: 5px;
+}
+.skill img{
+    width: 44px;
+    height: 44px;
+}
+.skill_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill_des{
+    font-size: 16px;
+    color: #757575;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+/* Resume */
+.column_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.column_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom:30px ;
+}
+
+.degree_tittle{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    line-height: 5px;
+}
+.degree_place{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    line-height: 3px;
+}
+.degree_des{
+    font-size: 16px;
+    color: #757575;
+}
+.resume{
+    margin-top: 120px;
+}
+.resume .section_title{
+    margin-bottom: 60px;
+}
+.resumeBtn{
+    margin: 50px ;
+}
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
