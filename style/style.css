@@ -63,6 +63,7 @@ nav ul li a{
        justify-content: space-between;
        align-items: center;
 
+
 }
 .hero_greating{
     font-size: 45px;
@@ -103,6 +104,7 @@ main{
 
 /* about section */
 .about{
+           margin-top: 130px;
     background-color: #FFF8F3;
     padding: 130px 157px;
     border-radius: 5px;
@@ -205,4 +207,50 @@ main{
 .btn_container{
     display: flex;
     justify-content: center;
+}
+/* footer */
+
+footer{
+    background-color: #FFF8F3;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1130px;
+    padding:130px 0px ;
+    margin: 0 auto;
+    gap:110px 
+}
+ .section_titlef{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.footer_container p{
+    text-align: left;
+}
+.icon_container a{
+    margin-right:24px ;
+}
+
+.footer_form input[type="text"],input[type="email"]
+{
+    background-color: white;
+    border: none;
+    padding: 23px;
+    font-size: 16px;
+    margin-bottom:24px ;
+}
+
+.footer_form form{
+    width: 461px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_form textarea{
+    background-color: white;
+    border: none;
+    padding: 20px;
+    margin-bottom: 24px;
 }
